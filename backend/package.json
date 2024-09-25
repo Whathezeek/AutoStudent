@@ -1,0 +1,22 @@
+{
+  "name": "backendd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "npx nodemon",
+    "build:prod": "tsc"
+  },
+  "keywords": [],
+  "author": "z",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.3"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "dotenv": "^16.0.3"
+  }
+}
